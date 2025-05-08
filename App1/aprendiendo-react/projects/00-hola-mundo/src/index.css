@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: system-ui;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background-color: #080808;
+    padding: 16px;
+    border-radius: 16px;
+    border: #2f3336 1.5px solid;
+}
+
+.App h1 {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 10px;
+    padding-left: 3px;
+}
+
+.App a {
+    color: #1c94e5;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
